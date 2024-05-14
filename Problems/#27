@@ -56,4 +56,5 @@ signed main()
             }
         }
     cout << ceva << " " << prod << " " << a << " " << b;
-}```
+}
+```
