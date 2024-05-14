@@ -1,3 +1,4 @@
+```cpp
 #include <iostream>
 #include <climits>
 #include <vector>
@@ -55,4 +56,4 @@ signed main()
             }
         }
     cout << ceva << " " << prod << " " << a << " " << b;
-}
+}```
