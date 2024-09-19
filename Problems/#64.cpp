@@ -8,6 +8,7 @@
 //and you distribute the terms accordingly and you associate the new
 //a, b and c with the formulae you got from the past a, b, c
 //just like complex numbers, real part and imaginary part
+//works in 0.6s maximum
 #include <iostream>
 #include <algorithm>
 #include <vector>
