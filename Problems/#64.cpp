@@ -4,7 +4,7 @@
 //numbers (I realised that after I decided to switch method)
 //Then I decided to write all partial numbers you can get as
 //(a * sqrt(n) - b) / c, for a, b, c integers
-//after that you just substract some integer l from them
+//after that you just subtract some integer l from them
 //and you distribute the terms accordingly and you associate the new
 //a, b and c with the formulae you got from the past a, b, c
 //just like complex numbers, real part and imaginary part
