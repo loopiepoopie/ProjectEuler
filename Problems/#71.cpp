@@ -6,7 +6,7 @@
 //will be (a+c)/(b+d) (i.e. the mediant)
 //that number will appear when the order of the sequence reaches
 //b+d, and the algorithm below does just that
-//0.05s
+//aprox. 0.04 - 0.06s
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -17,19 +17,12 @@ using namespace std;
 
 const int NMAX = 1e6;
 
-int cute[NMAX + 1];
-
 signed main()
 {
-    pair <int, int> a(2, 5), b(3, 7);
-    for (int i = 9; i <= NMAX; i++)
+    pair <int, int> a(2, 5);
+    while (a.second + 7 <= NMAX)
     {
-        if (cute[i] != 0)
-        {
-            a = {cute[i], i};
-        }
-        if (a.second + b.second <= NMAX)
-            cute[a.second + b.second] = a.first + b.first;
+        a = {a.first + 3, a.second + 7};
     }
     cout << a.first << " " << a.second;
 }
