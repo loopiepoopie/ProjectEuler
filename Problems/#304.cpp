@@ -6,7 +6,8 @@ Chinese Remainder Theorem
 Getting the primes is just a sieve for all primes less than sqrt(10^14), and getting the sum is just 
 brute force + pisano periods, because pi(630803) = 1261608, which means at most 13 mil brute forced
 fibonacci numbers, so it's doable 
-It runs in aprox. 0.3s, which is just good enough, although 
+It runs in aprox. 0.3s, which is just good enough, although it's a bit too complicated, especially when
+most computed those first 10^5 primes and then got the number mod whatever :((
 */
 #include <fstream>
 #include <iostream>
